@@ -1,0 +1,11 @@
+<%= error_messages_for 'mailing_list' %>
+
+<!--[form:mailing_list]-->
+
+<p><label for="mailing_list_name"><%= t("Name") %></label><br/>
+<%= form.text_field 'name' %></p>
+
+<p><label for="mailing_form_text"><%= t("Form Text") %></label><br/>
+<%= form.text_field 'form_text' %> This is what the user sees on the signup form.  i.e. Would you like to be notified when new products are released?</p>
+
+<!--[eoform:mailing_list]-->
